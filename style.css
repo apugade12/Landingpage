@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 12px 80px;
+    background-color:red;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+nav .logo h2{
+    color: #fff;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #00cccc;
+}
+.main
+{
+    margin:300px;
+    padding:-200px;
+    top:100px;
+    box-sizing: border-box;
+    background-color:papayawhip;
+    border-radius: 10px;
+    
+    
+}
+.land{
+    margin:10px;
+    padding:10px;
+}
+.land1
+{
+    margin:20px;
+    padding:20px;
+}
+#btn{
+    background-color: rgb(32, 171, 213);
+    size: 20px;
+    border-radius: 2px;
+}
